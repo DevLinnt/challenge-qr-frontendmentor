@@ -3,8 +3,9 @@
 }
 
 body{
-    min-height: 100vh;
     position: relative;
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%)
 }
 
 section{
@@ -12,9 +13,9 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     min-height: 100vh;
     font-family: 'Outfit';
-    background-color: hsl(212, 45%, 89%)
 }
 
 .container-1{
@@ -37,6 +38,7 @@ img{
 }
 
 h2{
+    margin-top: 0.5em;
     max-width: 17.5em;
     font-size: 1.5rem;
 }
